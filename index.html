@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Codo a Codo</a>
+                button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Desactivado</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                         <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+   
+    <!-- Cards  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <div class="card ">
+                    <img src="./img/html.jpg" alt="">
+                    </svg>
+                    <div class="card-body">
+                        <h4>Título 1</h4>
+                        <p class="card-text">Contenido card</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">Ultima actualizaión 1</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card ">
+                    <img src="./img/css.png" alt="">
+                    <div class="card-body">
+                        <h4>Título 2</h4>
+                        <p class="card-text">Contenido card</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                         <small class="text-muted">Ultima actualizaión 1</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/images.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Título 3</h4>
+                        <p class="card-text">Contenido card</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        
+                            <small class="text-muted">Ultima actualizaión 1</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Cards -->
+    <!-- Contact -->
+    <div class="row">
+        <div class="form-group">
+            <label >Email</label>
+            <input type="email" class="form-control" >
+            <small class="text-muted">Nunca compartas tu email</small><br>
+            <label >Contraseña</label>
+            <input type="clave" class="form-control" >
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" >
+                <label class="form-check-label" for="flexCheckDefault">
+                  Verificar
+                </label>
+            </div>
+         </div>
+    </div>
+    <button type="button" class="btn btn-primary">Enviar</button>
+     <!-- End Contact -->
+</body>
+</html>
